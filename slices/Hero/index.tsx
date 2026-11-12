@@ -1,6 +1,6 @@
 "use client";
 
-import { FC, useEffect, useRef, useState } from "react";
+import { FC, Suspense, useCallback, useRef, useState } from "react";
 import { Content } from "@prismicio/client";
 import { PrismicRichText, SliceComponentProps } from "@prismicio/react";
 import { Bounded } from "@/components/Bounded";
@@ -10,37 +10,12 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { SplitText } from "gsap/SplitText";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Loader } from "@/components/Loader";
-import { useProgress } from "@react-three/drei";
-import clsx from "clsx";
+import { Loader, type LoadingPhase } from "@/components/Loader";
+import { CanvasUnavailable, HeroCanvasBoundary, SceneReadiness } from "./Readiness";
+import Image from "next/image";
 import { checkout } from "@/checkout";
 
 gsap.registerPlugin(useGSAP, SplitText, ScrollTrigger);
-
-function LoaderWrapper() {
-  const { active } = useProgress();
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    if (active) {
-      setIsLoading(true);
-    } else {
-      const timer = setTimeout(() => setIsLoading(false), 100);
-      return () => clearTimeout(timer);
-    }
-  }, [active]);
-
-  return (
-    <div
-      className={clsx(
-        "motion-safe:transition-opacity motion-safe:duration-700",
-        isLoading ? "opacity-100" : "pointer-events-none opacity-0",
-      )}
-    >
-      <Loader />
-    </div>
-  );
-}
 
 /**
  * Props for `Hero`.
@@ -52,8 +27,24 @@ export type HeroProps = SliceComponentProps<Content.HeroSlice>;
  */
 const Hero: FC<HeroProps> = ({ slice }) => {
   const heroRef = useRef<HTMLElement>(null);
+  const [phase, setPhase] = useState<LoadingPhase>("loading");
+  const [revealed, setRevealed] = useState(false);
+  const failed = phase === "error";
+  const prepareScene = useCallback(() => {
+    setPhase((current) => current === "loading" ? "preparing" : current);
+  }, []);
+  const revealScene = useCallback(() => {
+    setPhase((current) => current === "error" ? current : "revealing");
+  }, []);
+  const failScene = useCallback(() => setPhase("error"), []);
+  const completeReveal = useCallback(() => setRevealed(true), []);
+  const continueWithoutScene = useCallback(() => {
+    setPhase("error");
+    setRevealed(true);
+  }, []);
 
   useGSAP(() => {
+    if (!revealed) return;
     const mm = gsap.matchMedia();
     const content = heroRef.current?.querySelector<HTMLElement>(".hero-content");
     if (!content) return;
@@ -93,7 +84,7 @@ const Hero: FC<HeroProps> = ({ slice }) => {
         linesClass: "line++",
       });
 
-      const tl = gsap.timeline({ delay: 4.2 });
+      const tl = gsap.timeline({ delay: failed ? 0 : 4.2 });
 
       tl.from(split.chars, {
         opacity: 0,
@@ -129,20 +120,35 @@ const Hero: FC<HeroProps> = ({ slice }) => {
       mm.revert();
       content.inert = false;
     };
-  }, { scope: heroRef });
+  }, { scope: heroRef, dependencies: [revealed, failed], revertOnUpdate: true });
 
   return (
     <section
       ref={heroRef}
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
-      className="hero relative h-dvh motion-safe:h-[300vh]"
+      className={`hero relative h-dvh ${failed ? "" : "motion-safe:h-[300vh]"}`}
     >
       <div className="hero-scene pointer-events-none sticky top-0 h-dvh w-full">
         <div className="hero-background-wash" aria-hidden="true" />
-        <Canvas shadows="soft" dpr={[1, 1.5]}>
-          <Scene />
-        </Canvas>
+        {failed ? (
+          <Image
+            className="hero-static-preview"
+            src="/images/aJOiBaTt2nPbZ7yt_render_2.png"
+            alt="Luma 75 keyboard"
+            width={1920}
+            height={1080}
+          />
+        ) : (
+          <HeroCanvasBoundary onError={failScene}>
+            <Canvas shadows="soft" dpr={[1, 1.5]} fallback={<CanvasUnavailable onError={failScene} />}>
+              <Suspense fallback={null}>
+                <Scene playing={revealed} />
+                <SceneReadiness onPreparing={prepareScene} onReady={revealScene} onError={failScene} />
+              </Suspense>
+            </Canvas>
+          </HeroCanvasBoundary>
+        )}
       <div className="hero-content absolute inset-x-0 top-0 h-dvh">
         <Bounded
           fullWidth
@@ -190,7 +196,9 @@ const Hero: FC<HeroProps> = ({ slice }) => {
         <div className="hero-specs"><span>75% layout</span><i/><span>Aluminum unibody</span><i/><span>Made to be yours</span></div>
       </div>
       </div>
-      <LoaderWrapper />
+      {!revealed && (
+        <Loader phase={phase} onComplete={completeReveal} onContinue={continueWithoutScene} />
+      )}
     </section>
   );
 };

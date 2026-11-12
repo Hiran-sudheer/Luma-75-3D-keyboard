@@ -73,25 +73,24 @@ function CameraController() {
   return null;
 }
 
-export function Scene() {
+export function Scene({ playing }: { playing: boolean }) {
   const keyboardGroupRef = useRef<THREE.Group>(null);
   const keycapRef = useRef<THREE.Group>(null);
   const keyboardAnimationRef = useRef<KeyboardRefs>(null);
   const lightRef = useRef<THREE.SpotLight>(null);
-  const lighting = useRef({ progress: 0 });
 
   const { size, scene } = useThree();
   const scalingFactor = size.width <= 500 ? 0.5 : 1;
 
-  // Drei reapplies environment props on render (including viewport changes).
-  // Keep one persistent lighting value, independent of scroll and React renders,
-  // and apply it before drawing so returning to the hero cannot reset the light.
+  // Keep the prepared lighting stable through the reveal and return scroll.
+  // Drei reapplies environment props when the viewport changes.
   useFrame(() => {
-    scene.environmentIntensity = 0.2 * lighting.current.progress;
-    if (lightRef.current) lightRef.current.intensity = 30 * lighting.current.progress;
+    scene.environmentIntensity = 0.2;
+    if (lightRef.current) lightRef.current.intensity = 30;
   });
 
   useGSAP(() => {
+    if (!playing) return;
     const mm = gsap.matchMedia();
 
     mm.add("(prefers-reduced-motion: no-preference)", () => {
@@ -101,14 +100,6 @@ export function Scene() {
       let scrollTimeline: gsap.core.Timeline | undefined;
       let handoff: gsap.core.Tween | undefined;
       const tourDuration = 3.5;
-
-      // Fade only on entry. Scroll reverses the product tour, never the lights.
-      gsap.to(lighting.current, {
-        progress: 1,
-        duration: 3.5,
-        delay: 0.5,
-        ease: "power2.inOut",
-      });
 
       const tl = gsap.timeline({
         ease: "power2.inOut",
@@ -387,12 +378,11 @@ export function Scene() {
       };
     });
     mm.add("(prefers-reduced-motion: reduce)", () => {
-      gsap.set(lighting.current, { progress: 1 });
       keyboardGroupRef.current?.position.set(0.2, -0.5, 1.9);
       keyboardGroupRef.current?.rotation.set(1.6, 0.4, 0);
     });
     return () => mm.revert();
-  });
+  }, { dependencies: [playing], revertOnUpdate: true });
 
   return (
     <group>
@@ -400,7 +390,7 @@ export function Scene() {
       <PerspectiveCamera makeDefault position={[0, 0, 4]} fov={50} />
 
       <group scale={scalingFactor}>
-        <group ref={keyboardGroupRef}>
+        <group ref={keyboardGroupRef} position={[0, -0.5, 0.15]} rotation={[1.1, -0.1, -0.08]}>
           <Keyboard scale={9} ref={keyboardAnimationRef} />
         </group>
 
