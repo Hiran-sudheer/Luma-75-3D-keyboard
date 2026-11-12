@@ -1,0 +1,744 @@
+﻿{
+    "page":  1,
+    "results_per_page":  100,
+    "results_size":  6,
+    "total_results_size":  6,
+    "total_pages":  1,
+    "next_page":  null,
+    "prev_page":  null,
+    "results":  [
+                    {
+                        "id":  "aJ9xZBAAACAAc_fl",
+                        "uid":  "brown",
+                        "url":  null,
+                        "type":  "switch",
+                        "href":  "https://nimbus-keyboards.cdn.prismic.io/api/v2/documents/search?ref=aKYvfRAAACEAfjul\u0026q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aJ9xZBAAACAAc_fl%22%29+%5D%5D",
+                        "tags":  [
+
+                                 ],
+                        "first_publication_date":  "2025-08-15T17:41:58+0000",
+                        "last_publication_date":  "2025-08-15T17:41:58+0000",
+                        "slugs":  [
+                                      "brown-max"
+                                  ],
+                        "linked_documents":  [
+
+                                             ],
+                        "lang":  "en-us",
+                        "alternate_languages":  [
+
+                                                ],
+                        "data":  {
+                                     "name":  "Brown Max",
+                                     "color":  "#6E3205"
+                                 }
+                    },
+                    {
+                        "id":  "aJ9xlxAAAB8Ac_g7",
+                        "uid":  "black",
+                        "url":  null,
+                        "type":  "switch",
+                        "href":  "https://nimbus-keyboards.cdn.prismic.io/api/v2/documents/search?ref=aKYvfRAAACEAfjul\u0026q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aJ9xlxAAAB8Ac_g7%22%29+%5D%5D",
+                        "tags":  [
+
+                                 ],
+                        "first_publication_date":  "2025-08-15T17:42:49+0000",
+                        "last_publication_date":  "2025-08-15T17:42:49+0000",
+                        "slugs":  [
+                                      "black-max"
+                                  ],
+                        "linked_documents":  [
+
+                                             ],
+                        "lang":  "en-us",
+                        "alternate_languages":  [
+
+                                                ],
+                        "data":  {
+                                     "name":  "Black Max",
+                                     "color":  "#000000"
+                                 }
+                    },
+                    {
+                        "id":  "aJOGiRIAAB8ADGF4",
+                        "uid":  null,
+                        "url":  null,
+                        "type":  "homepage",
+                        "href":  "https://nimbus-keyboards.cdn.prismic.io/api/v2/documents/search?ref=aKYvfRAAACEAfjul\u0026q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aJOGiRIAAB8ADGF4%22%29+%5D%5D",
+                        "tags":  [
+
+                                 ],
+                        "first_publication_date":  "2025-08-06T16:45:00+0000",
+                        "last_publication_date":  "2025-08-20T20:26:37+0000",
+                        "slugs":  [
+                                      "homepage"
+                                  ],
+                        "linked_documents":  [
+
+                                             ],
+                        "lang":  "en-us",
+                        "alternate_languages":  [
+
+                                                ],
+                        "data":  {
+                                     "slices":  [
+                                                    {
+                                                        "variation":  "default",
+                                                        "version":  "initial",
+                                                        "items":  [
+
+                                                                  ],
+                                                        "primary":  {
+                                                                        "heading":  [
+                                                                                        {
+                                                                                            "type":  "heading1",
+                                                                                            "text":  "Built for\nthe Bold",
+                                                                                            "spans":  [
+
+                                                                                                      ],
+                                                                                            "direction":  "ltr"
+                                                                                        }
+                                                                                    ],
+                                                                        "body":  [
+                                                                                     {
+                                                                                         "type":  "heading2",
+                                                                                         "text":  "Typing Reinvented",
+                                                                                         "spans":  [
+
+                                                                                                   ],
+                                                                                         "direction":  "ltr"
+                                                                                     },
+                                                                                     {
+                                                                                         "type":  "paragraph",
+                                                                                         "text":  "Fall in love with the craft thanks to our professional grade keycaps and switches.",
+                                                                                         "spans":  [
+
+                                                                                                   ],
+                                                                                         "direction":  "ltr"
+                                                                                     }
+                                                                                 ],
+                                                                        "buy_button_text":  "Buy Vapor75"
+                                                                    },
+                                                        "id":  "hero$b249c592-e39d-47ee-9e3a-b05245f368f5",
+                                                        "slice_type":  "hero",
+                                                        "slice_label":  null
+                                                    },
+                                                    {
+                                                        "variation":  "default",
+                                                        "version":  "initial",
+                                                        "items":  [
+
+                                                                  ],
+                                                        "primary":  {
+                                                                        "heading":  [
+                                                                                        {
+                                                                                            "type":  "heading2",
+                                                                                            "text":  "Vapor75 Features",
+                                                                                            "spans":  [
+
+                                                                                                      ],
+                                                                                            "direction":  "ltr"
+                                                                                        }
+                                                                                    ],
+                                                                        "items":  [
+                                                                                      {
+                                                                                          "size":  "Large",
+                                                                                          "image":  {
+                                                                                                        "dimensions":  {
+                                                                                                                           "width":  1920,
+                                                                                                                           "height":  1080
+                                                                                                                       },
+                                                                                                        "alt":  "The keyboard from underneath and the side showing the bottom",
+                                                                                                        "copyright":  null,
+                                                                                                        "url":  "https://images.prismic.io/nimbus-keyboards/aJOiC6Tt2nPbZ7yz_render_6.png?auto=format,compress",
+                                                                                                        "id":  "aJOiC6Tt2nPbZ7yz",
+                                                                                                        "edit":  {
+                                                                                                                     "x":  0,
+                                                                                                                     "y":  0,
+                                                                                                                     "zoom":  1,
+                                                                                                                     "background":  "transparent"
+                                                                                                                 }
+                                                                                                    },
+                                                                                          "text":  [
+                                                                                                       {
+                                                                                                           "type":  "paragraph",
+                                                                                                           "text":  "Full aluminum case. Premium materials for satisfying heft and durability.",
+                                                                                                           "spans":  [
+                                                                                                                         {
+                                                                                                                             "start":  0,
+                                                                                                                             "end":  19,
+                                                                                                                             "type":  "strong"
+                                                                                                                         }
+                                                                                                                     ],
+                                                                                                           "direction":  "ltr"
+                                                                                                       }
+                                                                                                   ]
+                                                                                      },
+                                                                                      {
+                                                                                          "size":  "Small",
+                                                                                          "image":  {
+                                                                                                        "dimensions":  {
+                                                                                                                           "width":  1920,
+                                                                                                                           "height":  1080
+                                                                                                                       },
+                                                                                                        "alt":  "A closeup of the customizable knob on the keyboard",
+                                                                                                        "copyright":  null,
+                                                                                                        "url":  "https://images.prismic.io/nimbus-keyboards/aJOiCaTt2nPbZ7yx_render_5_angled.png?auto=format,compress",
+                                                                                                        "id":  "aJOiCaTt2nPbZ7yx",
+                                                                                                        "edit":  {
+                                                                                                                     "x":  0,
+                                                                                                                     "y":  0,
+                                                                                                                     "zoom":  1,
+                                                                                                                     "background":  "transparent"
+                                                                                                                 }
+                                                                                                    },
+                                                                                          "text":  [
+                                                                                                       {
+                                                                                                           "type":  "paragraph",
+                                                                                                           "text":  "Interchangeable knob system. Customize your control dial to click, scroll, or press.",
+                                                                                                           "spans":  [
+                                                                                                                         {
+                                                                                                                             "start":  0,
+                                                                                                                             "end":  28,
+                                                                                                                             "type":  "strong"
+                                                                                                                         }
+                                                                                                                     ],
+                                                                                                           "direction":  "ltr"
+                                                                                                       }
+                                                                                                   ]
+                                                                                      },
+                                                                                      {
+                                                                                          "size":  "Medium",
+                                                                                          "image":  {
+                                                                                                        "dimensions":  {
+                                                                                                                           "width":  1920,
+                                                                                                                           "height":  1080
+                                                                                                                       },
+                                                                                                        "alt":  "An angled view of the keyboard",
+                                                                                                        "copyright":  null,
+                                                                                                        "url":  "https://images.prismic.io/nimbus-keyboards/aJOiBaTt2nPbZ7yt_render_2.png?auto=format,compress",
+                                                                                                        "id":  "aJOiBaTt2nPbZ7yt",
+                                                                                                        "edit":  {
+                                                                                                                     "x":  0,
+                                                                                                                     "y":  0,
+                                                                                                                     "zoom":  1,
+                                                                                                                     "background":  "transparent"
+                                                                                                                 }
+                                                                                                    },
+                                                                                          "text":  [
+                                                                                                       {
+                                                                                                           "type":  "paragraph",
+                                                                                                           "text":  "Cross Platform. Mac, Windows, or Linux, Nimbus adapts to your workflow.",
+                                                                                                           "spans":  [
+                                                                                                                         {
+                                                                                                                             "start":  0,
+                                                                                                                             "end":  15,
+                                                                                                                             "type":  "strong"
+                                                                                                                         }
+                                                                                                                     ],
+                                                                                                           "direction":  "ltr"
+                                                                                                       }
+                                                                                                   ]
+                                                                                      },
+                                                                                      {
+                                                                                          "size":  "Medium",
+                                                                                          "image":  {
+                                                                                                        "dimensions":  {
+                                                                                                                           "width":  1920,
+                                                                                                                           "height":  1080
+                                                                                                                       },
+                                                                                                        "alt":  "The keyboard with the switches showing ",
+                                                                                                        "copyright":  null,
+                                                                                                        "url":  "https://images.prismic.io/nimbus-keyboards/aJOiD6Tt2nPbZ7y3_render_9.png?auto=format,compress",
+                                                                                                        "id":  "aJOiD6Tt2nPbZ7y3",
+                                                                                                        "edit":  {
+                                                                                                                     "x":  0,
+                                                                                                                     "y":  0,
+                                                                                                                     "zoom":  1,
+                                                                                                                     "background":  "transparent"
+                                                                                                                 }
+                                                                                                    },
+                                                                                          "text":  [
+                                                                                                       {
+                                                                                                           "type":  "paragraph",
+                                                                                                           "text":  "Hot-Swappable Switches. Change your feel without any soldering.",
+                                                                                                           "spans":  [
+                                                                                                                         {
+                                                                                                                             "start":  0,
+                                                                                                                             "end":  23,
+                                                                                                                             "type":  "strong"
+                                                                                                                         }
+                                                                                                                     ],
+                                                                                                           "direction":  "ltr"
+                                                                                                       }
+                                                                                                   ]
+                                                                                      },
+                                                                                      {
+                                                                                          "size":  "Small",
+                                                                                          "image":  {
+                                                                                                        "dimensions":  {
+                                                                                                                           "width":  1920,
+                                                                                                                           "height":  1080
+                                                                                                                       },
+                                                                                                        "alt":  "A single key illuminated and singled out",
+                                                                                                        "copyright":  null,
+                                                                                                        "url":  "https://images.prismic.io/nimbus-keyboards/aJOiEaTt2nPbZ7y5_render_11_2.png?auto=format,compress",
+                                                                                                        "id":  "aJOiEaTt2nPbZ7y5",
+                                                                                                        "edit":  {
+                                                                                                                     "x":  0,
+                                                                                                                     "y":  0,
+                                                                                                                     "zoom":  1,
+                                                                                                                     "background":  "transparent"
+                                                                                                                 }
+                                                                                                    },
+                                                                                          "text":  [
+                                                                                                       {
+                                                                                                           "type":  "paragraph",
+                                                                                                           "text":  "Custom Nimbus Keycap Profile. Designed for long coding sessions.",
+                                                                                                           "spans":  [
+                                                                                                                         {
+                                                                                                                             "start":  0,
+                                                                                                                             "end":  29,
+                                                                                                                             "type":  "strong"
+                                                                                                                         }
+                                                                                                                     ],
+                                                                                                           "direction":  "ltr"
+                                                                                                       }
+                                                                                                   ]
+                                                                                      },
+                                                                                      {
+                                                                                          "size":  "Large",
+                                                                                          "image":  {
+                                                                                                        "dimensions":  {
+                                                                                                                           "width":  1920,
+                                                                                                                           "height":  1080
+                                                                                                                       },
+                                                                                                        "alt":  "A close up of the e-ink screen showing the battery life and bluetooth connection",
+                                                                                                        "copyright":  null,
+                                                                                                        "url":  "https://images.prismic.io/nimbus-keyboards/aJOiBqTt2nPbZ7yu_render_3.png?auto=format,compress",
+                                                                                                        "id":  "aJOiBqTt2nPbZ7yu",
+                                                                                                        "edit":  {
+                                                                                                                     "x":  0,
+                                                                                                                     "y":  0,
+                                                                                                                     "zoom":  1,
+                                                                                                                     "background":  "transparent"
+                                                                                                                 }
+                                                                                                    },
+                                                                                          "text":  [
+                                                                                                       {
+                                                                                                           "type":  "paragraph",
+                                                                                                           "text":  "E-Ink Display Screen. Show battery, status, or a custom design.",
+                                                                                                           "spans":  [
+                                                                                                                         {
+                                                                                                                             "start":  0,
+                                                                                                                             "end":  21,
+                                                                                                                             "type":  "strong"
+                                                                                                                         }
+                                                                                                                     ],
+                                                                                                           "direction":  "ltr"
+                                                                                                       }
+                                                                                                   ]
+                                                                                      }
+                                                                                  ]
+                                                                    },
+                                                        "id":  "bento_box$841d7f29-def6-4de3-a465-6b0c06495935",
+                                                        "slice_type":  "bento_box",
+                                                        "slice_label":  null
+                                                    },
+                                                    {
+                                                        "variation":  "default",
+                                                        "version":  "initial",
+                                                        "items":  [
+
+                                                                  ],
+                                                        "primary":  {
+                                                                        "direction":  "Left",
+                                                                        "phrases":  [
+                                                                                        {
+                                                                                            "text":  "Joyful Experience"
+                                                                                        },
+                                                                                        {
+                                                                                            "text":  "Quality Materials"
+                                                                                        },
+                                                                                        {
+                                                                                            "text":  "Precision Crafting"
+                                                                                        }
+                                                                                    ]
+                                                                    },
+                                                        "id":  "marquee$e0287a0f-e347-4c11-a0d6-1b1bb0722a68",
+                                                        "slice_type":  "marquee",
+                                                        "slice_label":  null
+                                                    },
+                                                    {
+                                                        "variation":  "default",
+                                                        "version":  "initial",
+                                                        "items":  [
+
+                                                                  ],
+                                                        "primary":  {
+                                                                        "heading":  [
+                                                                                        {
+                                                                                            "type":  "heading2",
+                                                                                            "text":  "Craft your Click",
+                                                                                            "spans":  [
+
+                                                                                                      ],
+                                                                                            "direction":  "ltr"
+                                                                                        }
+                                                                                    ],
+                                                                        "description":  [
+                                                                                            {
+                                                                                                "type":  "paragraph",
+                                                                                                "text":  "The Vapor75 can be customized with one of four premium switch types.",
+                                                                                                "spans":  [
+
+                                                                                                          ],
+                                                                                                "direction":  "ltr"
+                                                                                            }
+                                                                                        ],
+                                                                        "switches":  [
+                                                                                         {
+                                                                                             "switch":  {
+                                                                                                            "id":  "aJ9xfxAAACEAc_gS",
+                                                                                                            "type":  "switch",
+                                                                                                            "tags":  [
+
+                                                                                                                     ],
+                                                                                                            "lang":  "en-us",
+                                                                                                            "slug":  "blue-max",
+                                                                                                            "first_publication_date":  "2025-08-15T17:42:25+0000",
+                                                                                                            "last_publication_date":  "2025-08-15T17:42:25+0000",
+                                                                                                            "uid":  "blue",
+                                                                                                            "data":  {
+                                                                                                                         "name":  "Blue Max",
+                                                                                                                         "color":  "#0F80E7"
+                                                                                                                     },
+                                                                                                            "link_type":  "Document",
+                                                                                                            "key":  "ae86efa2-b5a2-4f60-9cfa-786d0063aa1b",
+                                                                                                            "isBroken":  false
+                                                                                                        }
+                                                                                         },
+                                                                                         {
+                                                                                             "switch":  {
+                                                                                                            "id":  "aJ9xQhAAACIAc_et",
+                                                                                                            "type":  "switch",
+                                                                                                            "tags":  [
+
+                                                                                                                     ],
+                                                                                                            "lang":  "en-us",
+                                                                                                            "slug":  "red-max",
+                                                                                                            "first_publication_date":  "2025-08-15T17:41:26+0000",
+                                                                                                            "last_publication_date":  "2025-08-15T17:41:26+0000",
+                                                                                                            "uid":  "red",
+                                                                                                            "data":  {
+                                                                                                                         "name":  "Red Max",
+                                                                                                                         "color":  "#C92627"
+                                                                                                                     },
+                                                                                                            "link_type":  "Document",
+                                                                                                            "key":  "b6c8e5f3-bd36-4e4f-b151-337d1b73686b",
+                                                                                                            "isBroken":  false
+                                                                                                        }
+                                                                                         },
+                                                                                         {
+                                                                                             "switch":  {
+                                                                                                            "id":  "aJ9xZBAAACAAc_fl",
+                                                                                                            "type":  "switch",
+                                                                                                            "tags":  [
+
+                                                                                                                     ],
+                                                                                                            "lang":  "en-us",
+                                                                                                            "slug":  "brown-max",
+                                                                                                            "first_publication_date":  "2025-08-15T17:41:58+0000",
+                                                                                                            "last_publication_date":  "2025-08-15T17:41:58+0000",
+                                                                                                            "uid":  "brown",
+                                                                                                            "data":  {
+                                                                                                                         "name":  "Brown Max",
+                                                                                                                         "color":  "#6E3205"
+                                                                                                                     },
+                                                                                                            "link_type":  "Document",
+                                                                                                            "key":  "0be9f550-66af-4e08-bc22-89c0ece7a382",
+                                                                                                            "isBroken":  false
+                                                                                                        }
+                                                                                         },
+                                                                                         {
+                                                                                             "switch":  {
+                                                                                                            "id":  "aJ9xlxAAAB8Ac_g7",
+                                                                                                            "type":  "switch",
+                                                                                                            "tags":  [
+
+                                                                                                                     ],
+                                                                                                            "lang":  "en-us",
+                                                                                                            "slug":  "black-max",
+                                                                                                            "first_publication_date":  "2025-08-15T17:42:49+0000",
+                                                                                                            "last_publication_date":  "2025-08-15T17:42:49+0000",
+                                                                                                            "uid":  "black",
+                                                                                                            "data":  {
+                                                                                                                         "name":  "Black Max",
+                                                                                                                         "color":  "#000000"
+                                                                                                                     },
+                                                                                                            "link_type":  "Document",
+                                                                                                            "key":  "39ff51aa-6594-42af-ba25-b970f2f22c81",
+                                                                                                            "isBroken":  false
+                                                                                                        }
+                                                                                         }
+                                                                                     ]
+                                                                    },
+                                                        "id":  "switch_playground$0f5d0588-ecec-4023-8732-490eb4176965",
+                                                        "slice_type":  "switch_playground",
+                                                        "slice_label":  null
+                                                    },
+                                                    {
+                                                        "variation":  "default",
+                                                        "version":  "initial",
+                                                        "items":  [
+
+                                                                  ],
+                                                        "primary":  {
+                                                                        "direction":  "Left",
+                                                                        "phrases":  [
+                                                                                        {
+                                                                                            "text":  "Joyful Experience"
+                                                                                        },
+                                                                                        {
+                                                                                            "text":  "Quality Materials"
+                                                                                        },
+                                                                                        {
+                                                                                            "text":  "Precision Crafting"
+                                                                                        }
+                                                                                    ]
+                                                                    },
+                                                        "id":  "marquee$55d23c8c-1d4a-43aa-962d-eb6d118df4d6",
+                                                        "slice_type":  "marquee",
+                                                        "slice_label":  null
+                                                    },
+                                                    {
+                                                        "variation":  "default",
+                                                        "version":  "initial",
+                                                        "items":  [
+
+                                                                  ],
+                                                        "primary":  {
+                                                                        "heading":  [
+                                                                                        {
+                                                                                            "type":  "heading2",
+                                                                                            "text":  "Custom Keycaps",
+                                                                                            "spans":  [
+
+                                                                                                      ],
+                                                                                            "direction":  "ltr"
+                                                                                        }
+                                                                                    ],
+                                                                        "description":  [
+                                                                                            {
+                                                                                                "type":  "paragraph",
+                                                                                                "text":  "Choose from different keycap materials and see how they transform your keyboard\u0027s appearance in real-time.",
+                                                                                                "spans":  [
+
+                                                                                                          ],
+                                                                                                "direction":  "ltr"
+                                                                                            }
+                                                                                        ]
+                                                                    },
+                                                        "id":  "color_changer$8186e555-7f0f-4734-b775-88e29b7e8896",
+                                                        "slice_type":  "color_changer",
+                                                        "slice_label":  null
+                                                    },
+                                                    {
+                                                        "variation":  "default",
+                                                        "version":  "initial",
+                                                        "items":  [
+
+                                                                  ],
+                                                        "primary":  {
+                                                                        "direction":  "Left",
+                                                                        "phrases":  [
+                                                                                        {
+                                                                                            "text":  "Joyful Experience"
+                                                                                        },
+                                                                                        {
+                                                                                            "text":  "Quality Materials"
+                                                                                        },
+                                                                                        {
+                                                                                            "text":  "Precision Crafting"
+                                                                                        }
+                                                                                    ]
+                                                                    },
+                                                        "id":  "marquee$4c716c8d-3cac-430a-b69f-4aa927bb9ebe",
+                                                        "slice_type":  "marquee",
+                                                        "slice_label":  null
+                                                    },
+                                                    {
+                                                        "variation":  "default",
+                                                        "version":  "initial",
+                                                        "items":  [
+
+                                                                  ],
+                                                        "primary":  {
+                                                                        "eyebrow":  "Experience Peak Performance",
+                                                                        "heading":  [
+                                                                                        {
+                                                                                            "type":  "heading2",
+                                                                                            "text":  "Order Yours Now",
+                                                                                            "spans":  [
+
+                                                                                                      ],
+                                                                                            "direction":  "ltr"
+                                                                                        }
+                                                                                    ],
+                                                                        "button_text":  "Buy Vapor75",
+                                                                        "body":  [
+                                                                                     {
+                                                                                         "type":  "paragraph",
+                                                                                         "text":  "Free worldwide shipping â¢ 30-day guarantee â¢ 2-year warranty",
+                                                                                         "spans":  [
+                                                                                                       {
+                                                                                                           "start":  0,
+                                                                                                           "end":  60,
+                                                                                                           "type":  "strong"
+                                                                                                       }
+                                                                                                   ],
+                                                                                         "direction":  "ltr"
+                                                                                     },
+                                                                                     {
+                                                                                         "type":  "paragraph",
+                                                                                         "text":  "Join 10,000+ satisfied customers worldwide",
+                                                                                         "spans":  [
+
+                                                                                                   ],
+                                                                                         "direction":  "ltr"
+                                                                                     }
+                                                                                 ]
+                                                                    },
+                                                        "id":  "purchase_button$e9272754-d1e8-486a-867f-cb3e67b01327",
+                                                        "slice_type":  "purchase_button",
+                                                        "slice_label":  null
+                                                    }
+                                                ],
+                                     "meta_title":  "Vapor75 - Nimbus Keyboards",
+                                     "meta_description":  "Introducing the all new Vapor75 mechanical keyboard",
+                                     "meta_image":  {
+                                                        "dimensions":  {
+                                                                           "width":  2400,
+                                                                           "height":  1260
+                                                                       },
+                                                        "alt":  null,
+                                                        "copyright":  null,
+                                                        "url":  "https://images.prismic.io/nimbus-keyboards/aJOiA6Tt2nPbZ7yr_og-image.png?auto=format,compress\u0026rect=0,0,1200,630\u0026w=2400\u0026h=1260",
+                                                        "id":  "aJOiA6Tt2nPbZ7yr",
+                                                        "edit":  {
+                                                                     "x":  0,
+                                                                     "y":  0,
+                                                                     "zoom":  1,
+                                                                     "background":  "transparent"
+                                                                 }
+                                                    }
+                                 }
+                    },
+                    {
+                        "id":  "aJ9xQhAAACIAc_et",
+                        "uid":  "red",
+                        "url":  null,
+                        "type":  "switch",
+                        "href":  "https://nimbus-keyboards.cdn.prismic.io/api/v2/documents/search?ref=aKYvfRAAACEAfjul\u0026q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aJ9xQhAAACIAc_et%22%29+%5D%5D",
+                        "tags":  [
+
+                                 ],
+                        "first_publication_date":  "2025-08-15T17:41:26+0000",
+                        "last_publication_date":  "2025-08-15T17:41:26+0000",
+                        "slugs":  [
+                                      "red-max"
+                                  ],
+                        "linked_documents":  [
+
+                                             ],
+                        "lang":  "en-us",
+                        "alternate_languages":  [
+
+                                                ],
+                        "data":  {
+                                     "name":  "Red Max",
+                                     "color":  "#C92627"
+                                 }
+                    },
+                    {
+                        "id":  "aKR3PRAAACAAe4xU",
+                        "uid":  "vapor75",
+                        "url":  null,
+                        "type":  "product",
+                        "href":  "https://nimbus-keyboards.cdn.prismic.io/api/v2/documents/search?ref=aKYvfRAAACEAfjul\u0026q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aKR3PRAAACAAe4xU%22%29+%5D%5D",
+                        "tags":  [
+
+                                 ],
+                        "first_publication_date":  "2025-08-19T13:08:22+0000",
+                        "last_publication_date":  "2025-08-19T13:08:22+0000",
+                        "slugs":  [
+                                      "vapor75"
+                                  ],
+                        "linked_documents":  [
+
+                                             ],
+                        "lang":  "en-us",
+                        "alternate_languages":  [
+
+                                                ],
+                        "data":  {
+                                     "name":  "Vapor75",
+                                     "price":  9999,
+                                     "image":  {
+                                                   "dimensions":  {
+                                                                      "width":  1920,
+                                                                      "height":  1080
+                                                                  },
+                                                   "alt":  "An angled view of the keyboard",
+                                                   "copyright":  null,
+                                                   "url":  "https://images.prismic.io/nimbus-keyboards/aJOiBaTt2nPbZ7yt_render_2.png?auto=format,compress",
+                                                   "id":  "aJOiBaTt2nPbZ7yt",
+                                                   "edit":  {
+                                                                "x":  0,
+                                                                "y":  0,
+                                                                "zoom":  1,
+                                                                "background":  "transparent"
+                                                            }
+                                               },
+                                     "description":  [
+                                                         {
+                                                             "type":  "paragraph",
+                                                             "text":  "The Vapor75 is a premium 75% mechanical keyboard built for developers who care about performance and aesthetics. With hot-swappable switches, seamless wireless connectivity, and a knurled aluminum volume knob, itâs engineered to feel as good as it looks. Its sleek, low-profile case and diffused metal finish give it a distinct visual identity on any desk. Designed by Nimbus, Vapor75 blends high-end materials with playful customization to elevate your workflow.",
+                                                             "spans":  [
+
+                                                                       ],
+                                                             "direction":  "ltr"
+                                                         }
+                                                     ]
+                                 }
+                    },
+                    {
+                        "id":  "aJ9xfxAAACEAc_gS",
+                        "uid":  "blue",
+                        "url":  null,
+                        "type":  "switch",
+                        "href":  "https://nimbus-keyboards.cdn.prismic.io/api/v2/documents/search?ref=aKYvfRAAACEAfjul\u0026q=%5B%5B%3Ad+%3D+at%28document.id%2C+%22aJ9xfxAAACEAc_gS%22%29+%5D%5D",
+                        "tags":  [
+
+                                 ],
+                        "first_publication_date":  "2025-08-15T17:42:25+0000",
+                        "last_publication_date":  "2025-08-15T17:42:25+0000",
+                        "slugs":  [
+                                      "blue-max"
+                                  ],
+                        "linked_documents":  [
+
+                                             ],
+                        "lang":  "en-us",
+                        "alternate_languages":  [
+
+                                                ],
+                        "data":  {
+                                     "name":  "Blue Max",
+                                     "color":  "#0F80E7"
+                                 }
+                    }
+                ],
+    "version":  "9eb0c14",
+    "license":  "All Rights Reserved"
+}

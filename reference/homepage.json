@@ -1,0 +1,481 @@
+{
+  "slices": [
+    {
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "heading": [
+          {
+            "type": "heading1",
+            "text": "In your\nelement.",
+            "spans": []
+          }
+        ],
+        "body": [
+          {
+            "type": "heading2",
+            "text": "A little more feeling.",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "A considered keyboard for the things you love to do. Beautifully tactile. Quietly expressive. Entirely yours.",
+            "spans": []
+          }
+        ],
+        "buy_button_text": "Meet Luma 75"
+      },
+      "id": "hero$b249c592-e39d-47ee-9e3a-b05245f368f5",
+      "slice_type": "hero",
+      "slice_label": null
+    },
+    {
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "heading": [
+          {
+            "type": "heading2",
+            "text": "Good design. Great feeling.",
+            "spans": []
+          }
+        ],
+        "items": [
+          {
+            "size": "Large",
+            "image": {
+              "dimensions": {
+                "width": 1920,
+                "height": 1080
+              },
+              "alt": "The keyboard from underneath and the side showing the bottom",
+              "copyright": null,
+              "url": "/images/aJOiC6Tt2nPbZ7yz_render_6.png",
+              "id": "aJOiC6Tt2nPbZ7yz",
+              "edit": {
+                "x": 0,
+                "y": 0,
+                "zoom": 1,
+                "background": "transparent"
+              }
+            },
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "Solid from the start. A full aluminum case, with a reassuring weight and a precise finish.",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 21,
+                    "type": "strong"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "size": "Small",
+            "image": {
+              "dimensions": {
+                "width": 1920,
+                "height": 1080
+              },
+              "alt": "A closeup of the customizable knob on the keyboard",
+              "copyright": null,
+              "url": "/images/aJOiCaTt2nPbZ7yx_render_5_angled.png",
+              "id": "aJOiCaTt2nPbZ7yx",
+              "edit": {
+                "x": 0,
+                "y": 0,
+                "zoom": 1,
+                "background": "transparent"
+              }
+            },
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "A satisfying little turn. An interchangeable control dial for a more hands-on workflow.",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 25,
+                    "type": "strong"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "size": "Medium",
+            "image": {
+              "dimensions": {
+                "width": 1920,
+                "height": 1080
+              },
+              "alt": "An angled view of the keyboard",
+              "copyright": null,
+              "url": "/images/aJOiBaTt2nPbZ7yt_render_2.png",
+              "id": "aJOiBaTt2nPbZ7yt",
+              "edit": {
+                "x": 0,
+                "y": 0,
+                "zoom": 1,
+                "background": "transparent"
+              }
+            },
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "At home on your desk. Mac, Windows or Linux. Your setup, your way.",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 21,
+                    "type": "strong"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "size": "Medium",
+            "image": {
+              "dimensions": {
+                "width": 1920,
+                "height": 1080
+              },
+              "alt": "The keyboard with the switches showing ",
+              "copyright": null,
+              "url": "/images/aJOiD6Tt2nPbZ7y3_render_9.png",
+              "id": "aJOiD6Tt2nPbZ7y3",
+              "edit": {
+                "x": 0,
+                "y": 0,
+                "zoom": 1,
+                "background": "transparent"
+              }
+            },
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "Find your kind of click. Hot-swappable switches. A different feel, without the soldering.",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 24,
+                    "type": "strong"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "size": "Small",
+            "image": {
+              "dimensions": {
+                "width": 1920,
+                "height": 1080
+              },
+              "alt": "A single key illuminated and singled out",
+              "copyright": null,
+              "url": "/images/aJOiEaTt2nPbZ7y5_render_11_2.png",
+              "id": "aJOiEaTt2nPbZ7y5",
+              "edit": {
+                "x": 0,
+                "y": 0,
+                "zoom": 1,
+                "background": "transparent"
+              }
+            },
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "Comfort in every contour. Sculpted keycaps that invite you to stay a little longer.",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 25,
+                    "type": "strong"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "size": "Large",
+            "image": {
+              "dimensions": {
+                "width": 1920,
+                "height": 1080
+              },
+              "alt": "A close up of the e-ink screen showing the battery life and bluetooth connection",
+              "copyright": null,
+              "url": "/images/aJOiBqTt2nPbZ7yu_render_3.png",
+              "id": "aJOiBqTt2nPbZ7yu",
+              "edit": {
+                "x": 0,
+                "y": 0,
+                "zoom": 1,
+                "background": "transparent"
+              }
+            },
+            "text": [
+              {
+                "type": "paragraph",
+                "text": "The small details, sorted. An e-ink display for the things you want at a glance.",
+                "spans": [
+                  {
+                    "start": 0,
+                    "end": 26,
+                    "type": "strong"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "id": "bento_box$841d7f29-def6-4de3-a465-6b0c06495935",
+      "slice_type": "bento_box",
+      "slice_label": null
+    },
+    {
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "direction": "Left",
+        "phrases": [
+          {
+            "text": "Considered details"
+          },
+          {
+            "text": "Satisfying by nature"
+          },
+          {
+            "text": "Room for expression"
+          }
+        ]
+      },
+      "id": "marquee$e0287a0f-e347-4c11-a0d6-1b1bb0722a68",
+      "slice_type": "marquee",
+      "slice_label": null
+    },
+    {
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "heading": [
+          {
+            "type": "heading2",
+            "text": "Find your frequency.",
+            "spans": []
+          }
+        ],
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Some like it smooth. Others like a little feedback. Press a switch and hear what feels right.",
+            "spans": []
+          }
+        ],
+        "switches": [
+          {
+            "switch": {
+              "id": "aJ9xfxAAACEAc_gS",
+              "type": "switch",
+              "tags": [],
+              "lang": "en-us",
+              "slug": "blue-max",
+              "first_publication_date": "2025-08-15T17:42:25+0000",
+              "last_publication_date": "2025-08-15T17:42:25+0000",
+              "uid": "blue",
+              "data": {
+                "name": "Clicky blue",
+                "color": "#0F80E7"
+              },
+              "link_type": "Document",
+              "key": "ae86efa2-b5a2-4f60-9cfa-786d0063aa1b",
+              "isBroken": false
+            }
+          },
+          {
+            "switch": {
+              "id": "aJ9xQhAAACIAc_et",
+              "type": "switch",
+              "tags": [],
+              "lang": "en-us",
+              "slug": "red-max",
+              "first_publication_date": "2025-08-15T17:41:26+0000",
+              "last_publication_date": "2025-08-15T17:41:26+0000",
+              "uid": "red",
+              "data": {
+                "name": "Linear red",
+                "color": "#C92627"
+              },
+              "link_type": "Document",
+              "key": "b6c8e5f3-bd36-4e4f-b151-337d1b73686b",
+              "isBroken": false
+            }
+          },
+          {
+            "switch": {
+              "id": "aJ9xZBAAACAAc_fl",
+              "type": "switch",
+              "tags": [],
+              "lang": "en-us",
+              "slug": "brown-max",
+              "first_publication_date": "2025-08-15T17:41:58+0000",
+              "last_publication_date": "2025-08-15T17:41:58+0000",
+              "uid": "brown",
+              "data": {
+                "name": "Tactile brown",
+                "color": "#6E3205"
+              },
+              "link_type": "Document",
+              "key": "0be9f550-66af-4e08-bc22-89c0ece7a382",
+              "isBroken": false
+            }
+          },
+          {
+            "switch": {
+              "id": "aJ9xlxAAAB8Ac_g7",
+              "type": "switch",
+              "tags": [],
+              "lang": "en-us",
+              "slug": "black-max",
+              "first_publication_date": "2025-08-15T17:42:49+0000",
+              "last_publication_date": "2025-08-15T17:42:49+0000",
+              "uid": "black",
+              "data": {
+                "name": "Linear black",
+                "color": "#000000"
+              },
+              "link_type": "Document",
+              "key": "39ff51aa-6594-42af-ba25-b970f2f22c81",
+              "isBroken": false
+            }
+          }
+        ]
+      },
+      "id": "switch_playground$0f5d0588-ecec-4023-8732-490eb4176965",
+      "slice_type": "switch_playground",
+      "slice_label": null
+    },
+    {
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "direction": "Left",
+        "phrases": [
+          {
+            "text": "Considered details"
+          },
+          {
+            "text": "Satisfying by nature"
+          },
+          {
+            "text": "Room for expression"
+          }
+        ]
+      },
+      "id": "marquee$55d23c8c-1d4a-43aa-962d-eb6d118df4d6",
+      "slice_type": "marquee",
+      "slice_label": null
+    },
+    {
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "heading": [
+          {
+            "type": "heading2",
+            "text": "A little more you.",
+            "spans": []
+          }
+        ],
+        "description": [
+          {
+            "type": "paragraph",
+            "text": "Six distinct expressions. The same unmistakable feeling. Pick a palette and watch your Luma come to life.",
+            "spans": []
+          }
+        ]
+      },
+      "id": "color_changer$8186e555-7f0f-4734-b775-88e29b7e8896",
+      "slice_type": "color_changer",
+      "slice_label": null
+    },
+    {
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "direction": "Left",
+        "phrases": [
+          {
+            "text": "Considered details"
+          },
+          {
+            "text": "Satisfying by nature"
+          },
+          {
+            "text": "Room for expression"
+          }
+        ]
+      },
+      "id": "marquee$4c716c8d-3cac-430a-b69f-4aa927bb9ebe",
+      "slice_type": "marquee",
+      "slice_label": null
+    },
+    {
+      "variation": "default",
+      "version": "initial",
+      "items": [],
+      "primary": {
+        "eyebrow": "YOUR DESK. YOUR ELEMENT.",
+        "heading": [
+          {
+            "type": "heading2",
+            "text": "Make room for\nsomething you love.",
+            "spans": []
+          }
+        ],
+        "button_text": "Find your finish",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Luma 75. A thoughtful little upgrade to your everyday.",
+            "spans": []
+          }
+        ]
+      },
+      "id": "purchase_button$e9272754-d1e8-486a-867f-cb3e67b01327",
+      "slice_type": "purchase_button",
+      "slice_label": null
+    }
+  ],
+  "meta_title": "Luma 75 | In your element.",
+  "meta_description": "A considered mechanical keyboard. Beautifully tactile. Quietly expressive. Entirely yours.",
+  "meta_image": {
+    "dimensions": {
+      "width": 2400,
+      "height": 1260
+    },
+    "alt": null,
+    "copyright": null,
+    "url": "/images/aJOiA6Tt2nPbZ7yr_og-image.png",
+    "id": "aJOiA6Tt2nPbZ7yr",
+    "edit": {
+      "x": 0,
+      "y": 0,
+      "zoom": 1,
+      "background": "transparent"
+    }
+  }
+}

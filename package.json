@@ -1,0 +1,40 @@
+{
+  "name": "luma-75",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "start": "next start"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "0.179.1",
+    "@gsap/react": "^2.1.2",
+    "@prismicio/client": "^7.19.1",
+    "@prismicio/next": "^2.0.1",
+    "@prismicio/react": "^3.2.1",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@react-three/drei": "^10.6.1",
+    "@react-three/fiber": "^9.3.0",
+    "clsx": "^2.1.1",
+    "gsap": "^3.13.0",
+    "react-icons": "^5.5.0",
+    "three-stdlib": "^2.36.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.179.0",
+    "typescript": "^5.9.0",
+    "@tailwindcss/postcss": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}
