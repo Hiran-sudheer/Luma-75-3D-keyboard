@@ -11,7 +11,7 @@ import { useGSAP } from "@gsap/react";
 import { SplitText } from "gsap/SplitText";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Loader, type LoadingPhase } from "@/components/Loader";
-import { CanvasUnavailable, HeroCanvasBoundary, SceneReadiness } from "./Readiness";
+import { HeroCanvasBoundary, SceneReadiness } from "./Readiness";
 import Image from "next/image";
 import { checkout } from "@/checkout";
 
@@ -141,7 +141,11 @@ const Hero: FC<HeroProps> = ({ slice }) => {
           />
         ) : (
           <HeroCanvasBoundary onError={failScene}>
-            <Canvas shadows="soft" dpr={[1, 1.5]} fallback={<CanvasUnavailable onError={failScene} />}>
+            <Canvas
+              shadows="soft"
+              dpr={[1, 1.5]}
+              fallback="Your browser cannot display the interactive keyboard."
+            >
               <Suspense fallback={null}>
                 <Scene playing={revealed} />
                 <SceneReadiness onPreparing={prepareScene} onReady={revealScene} onError={failScene} />

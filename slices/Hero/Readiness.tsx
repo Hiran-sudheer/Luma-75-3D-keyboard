@@ -21,11 +21,6 @@ export class HeroCanvasBoundary extends Component<FailureProps & { children: Rea
   }
 }
 
-export function CanvasUnavailable({ onError }: FailureProps) {
-  useEffect(onError, [onError]);
-  return null;
-}
-
 type ReadinessProps = FailureProps & { onPreparing: () => void; onReady: () => void };
 
 export function SceneReadiness({ onPreparing, onReady, onError }: ReadinessProps) {
